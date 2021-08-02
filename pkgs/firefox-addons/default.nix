@@ -26,7 +26,4 @@ let
 
 in packages // {
   inherit buildFirefoxXpiAddon;
-
-  # Aliases.
-  "1password-x-password-manager" = packages.onepassword-password-manager;
 }
