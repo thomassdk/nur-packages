@@ -3,7 +3,7 @@ on:
   pull_request:
   push:
   schedule:
-    # rebuild everyday at 5:55 as the random chronos has decreed
+    # rebuild everyday at 5:55 as the random chronos has decreeded
     - cron:  '55 5 * * *'
 jobs:
   tests:
